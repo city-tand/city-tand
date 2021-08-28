@@ -1,0 +1,28 @@
+.city-tand-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.city-tand-footer p:last-child {
+    margin-bottom: 0;
+}
+
+.city-tand-navbar {
+    /* background: #dfe6e9; */
+    border-bottom: 5px solid #74b9ff;
+}
+
+body {
+    background-color: white;
+}
+
+html {
+    background-color: #f9f9f9;
+}
+
+.city-tand-links .list-group-item {
+    background-color: transparent;
+}
