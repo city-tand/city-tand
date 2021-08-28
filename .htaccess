@@ -1,8 +1,0 @@
-order allow,deny
-<FilesMatch "\.(html|js|css|ico|jpg|jpeg|gif|png|pdf)$">
-   allow from all
-</FilesMatch>
-
-<FilesMatch "^/$">
-   allow from all
-</FilesMatch>
