@@ -1,4 +1,4 @@
-### whitelist file extension which may be served
-RewriteCond %{REQUEST_URI} !\.(html|js|css|ico|php|jpg|jpeg|gif|png|xls|xlsx|pdf|doc|docx|ppt|pptx)$ [nc]
-RewriteCond %{REQUEST_FILENAME} -f
-RewriteRule .* - [R=403,L]
+order allow,deny
+<Files ~ "\.(html|js|css|ico|php|jpg|jpeg|gif|png|xls|xlsx|pdf|doc|docx|ppt|pptx)$">
+   allow from all
+</Files>
