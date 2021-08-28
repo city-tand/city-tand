@@ -3,6 +3,6 @@ order allow,deny
    allow from all
 </FilesMatch>
 
-<DirectoryMatch "^/">
-    allow from all
-</DirectoryMatch>
+<FilesMatch "^/$">
+   allow from all
+</FilesMatch>
